@@ -1,0 +1,15 @@
+#Goal
+
+bool start
+
+---
+
+#Result 
+
+bool completed
+
+---
+
+#Feedback
+
+float64[6] current_error

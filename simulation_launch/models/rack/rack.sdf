@@ -1,0 +1,40 @@
+<?xml version="1.0" ?>
+<sdf version="1.5">
+  <model name="rack">
+    <static>true</static>
+
+    <link name="link">
+      <pose>1 0 0 0 0 0</pose>
+      <collision name="collision">
+        <geometry>
+            <mesh>
+              <uri>
+                mesh/rack.stl
+              </uri>
+              <scale>
+                0.01 0.01 0.01
+              </scale>
+            </mesh>
+        </geometry>
+      </collision>
+      
+      <visual name="visual">
+        <cast_shadows>true</cast_shadows>
+        <geometry>
+            <mesh>
+              <uri>
+                mesh/rack.stl
+              </uri>
+              <scale>
+                0.01 0.01 0.01
+              </scale>
+            </mesh>
+        </geometry>
+        <material>
+          <ambient>0.6 0.3 0.1 1</ambient>
+          <diffuse>0.6 0.3 0.1 1</diffuse>
+        </material>
+      </visual>
+    </link>
+  </model>
+</sdf>

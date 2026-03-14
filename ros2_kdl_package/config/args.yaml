@@ -1,0 +1,18 @@
+ros2_kdl_node:
+  ros__parameters:
+
+    traj_type: "linear"
+    s_type: "trapezoidal"
+    traj_duration: 5.0
+    acc_duration: 1.5
+    total_time: 5.0
+    trajectory_len: 500
+    Kp: 2.0
+    lambda: 5.0
+
+    cmd_interface: "position"
+    ctrl: "velocity_ctrl_null"
+    
+    end_position: [0.20,0.0,0.40]
+
+    action_server_mode: True
